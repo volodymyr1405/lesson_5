@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,500&display=swap');
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fontsLarsseit.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "lato";
+   src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Merriweather";
+   src: url("../fonts/Merriweather-Bold.woff2") format("woff2"), url("../Merriweather-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Merriweather";
+   src: url("../fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../Merriweather-BoldItalic.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;}
+
+
+body{
+	font-family: "Merriweather";
+	margin: 10px;
+	width: 1000px;
+	text-align: justify;
+	text-indent: 15px;
+	line-height: 25px;
+	}
+
+	img {
+		margin: 10px;
+		height: 500px;	
+		}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	color: rgb(131, 223, 39);
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 4px 2px 4px rgb(199, 226, 80), -1px -4px 2px rgb(49, 40, 40);
+
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Roboto";
+	font-style: italic;
+   font-weight: 700;
+   color: rgb(64, 16, 176);
+	text-align: center;
+}
+
+ul {
+	padding: 20px;
+	font-family:"Lato";
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+
+p.start{
+	font-family: "Roboto";
+	font-style: oblique;
+	color: coral;
+	}
+
+
+.intro {
+	font-family: "Larsseit";
+	font-style: italic;
+	font-weight: 400;
+	color: rgb(42, 39, 223);
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-shadow: 1px -0px 1px rgb(49, 40, 40);
+}
+.intro {
+	font-family: "Larsseit";
+	font-style: italic;
+	font-weight: 400;
+	color: rgb(42, 39, 223);
+	text-transform: uppercase;
+	text-shadow: 1px -0px 1px rgb(49, 40, 40);
+}
+.intro-two{
+	text-transform: capitalize;
+	width: 900px;
+}
+.fauna,
+.text {
+	color: darkgreen;
+	margin: 15px 25px;
+	box-sizing: content-box;
+	font-weight: 200;
+	text-decoration: overline;
+	word-spacing: 10px;
+}
+
+.flora {
+	padding: 25px;
+	font-family: "Roboto";
+	text-shadow: 4px 2px 4px rgb(199, 226, 80), -1px -4px 2px rgb(49, 40, 40);
+	font-weight: 700;
+	color: rgb(39, 220, 223);
+	text-transform: capitalize;
+	text-decoration: solid;
+}
+
+p.flora-win{
+	font-family:"Merriweather";
+	margin: 10px 20px;
+	color: darkslateblue;
+	text-align: right;
+}
+p.fin{
+	font-family: "Merriweather";
+	font-style: italic;
+	color: darkkhaki;
+	text-shadow: 8px 2px 6px rgb(54, 62, 15), -3px -8px 2px rgb(86, 209, 231);
+	text-decoration: line-through;
+	text-transform: lowercase;
+	line-height: 25px;
+}
+
+
+footer{
+	color: rgb(38, 18, 214);
+	text-align: center;
+}
